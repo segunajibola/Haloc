@@ -1,0 +1,105 @@
+﻿.topnav { 
+	background-color: #D70000;
+	overflow: hidden; 
+}
+
+.topnav a { float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+}
+.topnav a:hover { 
+			background-color: #F7B906;
+			color: black;
+}
+.topnav a.active {
+			background-color: #F7B906;
+			color: white;
+}   
+
+div.hero-image {
+			background-image: url("../images/shegzy.jpg");
+			height: 700px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+}	
+
+div.hero-text {	
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #D70000;
+}
+
+div.hero-text h1 {
+			font-size: 3em;
+}
+
+div.hero-text a button {
+			color: white;
+			border-color: #D70000;
+			background-color: #D70000;
+			padding: 10px;
+}
+
+.description {
+			max-width: 600px;
+			text-align: center;
+			margin: auto; 
+}
+
+.column {
+			float: left;
+			width: 33.33%
+}
+
+.column img {
+			width: 100%;
+			height: auto;
+}
+
+.row {
+			text-align: center;
+			padding-bottom: 30px;
+}
+
+.row: after {
+			content: "";
+			display: table;
+			clear: both;
+}
+
+
+footer {
+			background-color: #D70000;
+			text-align: center;
+			margin-top: center;
+			padding: 20px;
+}
+
+footer p {
+			color: #F7B906;
+}
+
+.topnav .icon {
+			display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.topnav a:not(:first-child) {display: none;}
+}	.topnav a.icon {
+		float: right;
+		display: block;
+}
+}
+
+.nb {
+	margin-top: 50px;
+}
